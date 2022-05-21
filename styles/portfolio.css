@@ -1,14 +1,63 @@
+:root {
+  --main-color: #e4f0cd;
+  --secondary-color: #f283b6;
+  --back-color: #ffffff;
+  --text-color: #101816;
+  --maintext-color: #000000;
+}
+
 body {
-  background: rgb(238, 174, 202);
-  background: radial-gradient(
-    circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
-  );
+  background-color: #e4f0cd;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 270px;
 }
 h1 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 96px;
+  text-align: center;
+  color: var(--maintext-color);
+  margin-bottom: 36px;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: var(--text-color);
+  margin-top: 194px;
 }
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: 36px;
+}
+.main-button {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: var(--back-color);
+  margin-bottom: 270px;
+}
+nav {
+  background-color: #e4f0cd;
+  color: var(--text-color);
+  text-decoration: none;
+}
+.navbar-brand {
+  color: var(--secondary-color);
+}
+.nav-link {
+  color: var(--text-color);
+}
+
+.active {
+  color: var(--secondary-color);
 }
