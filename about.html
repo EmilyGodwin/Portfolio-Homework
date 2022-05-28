@@ -22,59 +22,31 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/styles/portfolio.css" />
-    <style>
-      .about-title {
-        font-family: "Playfair Display";
-        text-align: start;
-        font-weight: 700;
-        font-size: 64px;
-        color: #000000;
-        margin-bottom: 30px;
-      }
-    </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Emily Godwin</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-link" href="/index.html">Home</a>
-            <a class="nav-link active" aria-current="page" href="#">About</a>
-            <a class="nav-link" href="/work.html">Work</a>
-            <a class="nav-link" href="#">Contact</a>
+    <div class="about-section container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="about-section-content">
+            <h1 class="mb-4">Hi I am Emily Godwin</h1>
+            <h2 class="mb-4">
+              Frontend Developer, based in Madison, Wisconsin.
+            </h2>
+            <p class="mb-4">
+              For anyone who wants to start learning code, this workshop is very
+              interesting. You will be challenged with different exercises, and
+              everything is well explained, homework and deadlines are good for
+              keep focus
+            </p>
+            <a href="/work.html" class="btn btn-branding">View my Projects</a>
           </div>
         </div>
-      </div>
-    </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1 class="about-title">Hi I am Emily Godwin</h1>
-          <h2 class="about-info">
-            Frontend Developer, based in Madison, Wisconsin.
-          </h2>
-          <p class="about">
-            For anyone who wants to start learning code, this workshop is very
-            interesting. You will be challenged with different exercises, and
-            everything is well explained, homework and deadlines are good for
-            keep focus
-          </p>
-          <a class="projects-button" href="#">View all Projects</a>
-        </div>
-        <div class="col">
-          <img src="/images/profile.jpeg" class="img-fluid" />
+        <div class="col-lg-6">
+          <img
+            src="/images/profile.jpeg"
+            class="img-fluid"
+            alt="Emily Godwin"
+          />
         </div>
       </div>
     </div>
