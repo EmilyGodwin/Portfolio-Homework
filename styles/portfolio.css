@@ -110,3 +110,20 @@ p {
 img {
   border-radius: 4px;
 }
+nav {
+  background-color: #e4f0cd;
+  color: var(--text-color);
+  text-decoration: none;
+}
+.navbar-brand {
+  color: var(--secondary-color);
+}
+.nav-link {
+  color: var(--text-color);
+}
+.current {
+  color: var(--secondary-color);
+}
+i {
+  color: var(--secondary-color);
+}
