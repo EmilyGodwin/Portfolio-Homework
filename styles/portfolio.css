@@ -28,6 +28,9 @@ h2 {
   font-size: 64px;
   color: var(--maintext-color);
 }
+h4 {
+  font-size: 48px;
+}
 p {
   font-weight: 400;
   font-size: 16px;
@@ -87,6 +90,48 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--main-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .social-links a {
+  color: var(--secondary-color);
+  margin: 0 20px;
+  background: rgba(94.9%, 51.37%, 71.37%, 10%);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--back-color);
+  background: var(--secondary-color);
+}
+
+footer .email-link {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: var(--maintext-color);
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -94,6 +139,9 @@ p {
   }
   h2 {
     font-size: 44px;
+  }
+  h4 {
+    font-size: 26px;
   }
   .hero {
     padding: 80px 20px;
@@ -124,6 +172,6 @@ nav {
 .current {
   color: var(--secondary-color);
 }
-i {
+nav i {
   color: var(--secondary-color);
 }
